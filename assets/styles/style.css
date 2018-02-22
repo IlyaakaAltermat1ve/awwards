@@ -1,4 +1,5 @@
-body, h1, h2, h3, h4, p, a {
+body, h1, h2, h3, h4, p, a, ul
+ {
 	margin: 0;
 	font-family: "Mont";
 }
@@ -13,13 +14,27 @@ a, input, button  {
 }
 
 body {
-
+	background-color: #f4f4f4;
 }
 
 ul {
 	text-decoration-style: none ;
 	padding: 0;
 }
+
+.nav-toggler i {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 8px;
+}
+
+.nav-toggler i:last child {
+    margin-bottom: 0;
+}
+
+
 
 @media screen and (min-width: 768px) {
     .header-mobile {
